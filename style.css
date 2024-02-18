@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: wheat
+}
+
+div{
+    /* border: solid; */
+    display: flex;
+}
+
+.wrapper{
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    max-width: 500px;
+    background-color: rgb(255, 255, 255)
+}
+
+.header{
+    justify-content: space-between;
+    border: solid;
+    border-color: darkkhaki;
+}
+
+.header-menu{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header-profile{
+    padding: 10px;
+}
+
+.menu{
+    flex-direction: column;
+}
+.menu-item{
+    padding: 10px;
+    font-size: x-large;
+}
+
+.header-menu:hover{
+    background-color: darkorange;
+}
