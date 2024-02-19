@@ -41,6 +41,10 @@ div{
     font-size: x-large;
 }
 
+.display-none{
+    display: none;
+}
+
 /* .header-menu:hover{
     background-color: darkorange;
 } */
